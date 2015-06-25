@@ -46,7 +46,7 @@ void preencheRandomico(){
 		
 		//buscar o elemento no vetor
 		for(j=0;j<i;j++){
-			if(vet[j]==vet[j]){
+			if(vet[j]==vet[i]){
 				i--;
 				break;
 			}
